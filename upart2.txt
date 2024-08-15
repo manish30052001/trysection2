@@ -1,0 +1,49 @@
+Property Information: 
+
+Need few details about the property you are looking for 
+
+1) What kind of housing do you want to buy?  
+
+ (1st / 2nd / Investment)  
+
+2) Do you already have a project?  
+
+Yes/No    
+
+3) Please select the constructor from the list:  
+
+$session.params.buildersList  
+
+4) Can you select the project you decided on?  
+
+$session.params.constructor_projects_list  
+
+5) In which department is the project located?  
+
+6) Would you like to add an additional Buyer? – Display the list of available additional buyers and ask the user to select. If they want to add a new buyer, they have to enter the below details and invite them.  
+
+(a)Identification Number  
+
+(b)Additional Buyer email  
+
+(c)Full name  
+
+(d)phone number  
+
+(e)Kinship  
+
+- Spouse  
+
+- Mother  
+
+- Dad  
+
+- Son/Daughter  
+
+- Brother/Sister  
+
+- Grandfather/Grand Mother 
+
+(f)Monthly income  
+
+(g) Monthly payment by additional buyer 
