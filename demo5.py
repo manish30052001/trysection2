@@ -3,7 +3,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Initialize the OpenAI client with the API key
-gpt_api_key = "sk-proj-0tkk7ySMNVUQf2Z1bTR2T3BlbkFJ5J5QLmTDrdWcgtreyIRn"
+gpt_api_key = "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"
 client = OpenAI(api_key=gpt_api_key)
 
 # Function to interact with the LLM
