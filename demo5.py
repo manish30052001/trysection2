@@ -138,7 +138,7 @@ At the end of the process, return all collected information in format Specified 
             st.session_state['current_question_index'] = -1  # Start before the first question
 
         # Load questions from file
-        questions_file = "/home/koggi/koggi/tests/upart2.txt"
+        questions_file = "/upart2.txt"
         try:
             with open(questions_file, 'r') as file:
                 questions = file.readlines()
